@@ -1,0 +1,54 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+    padding: 24px 193px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li a {
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text1);
+    color: var(--color-white);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: var(--color-green);
+}
+
+header .right-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header .right-nav-header .login{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text1);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+header .right-nav-header .try{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text1);
+    color: var(--color-black);
+    text-decoration: none;
+    background: var(--color-green);
+    padding: 8px 24px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+header .right-nav-header .try:hover{
+    background: var(--color-white);
+}
+
