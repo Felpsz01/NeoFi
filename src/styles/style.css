@@ -134,7 +134,7 @@ main .left-main-content .nav-left .watch-button{
     gap: 6px;
     color: var(--color-white);
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.3s;    
 }
 
 main .left-main-content .nav-left .watch-button:hover{
@@ -142,3 +142,100 @@ main .left-main-content .nav-left .watch-button:hover{
 }
 
 /*  ================ SECTION-BRANDS ================ */
+
+.section-brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-gray4);
+    gap: 40px;
+    padding: 40px;
+}
+
+.section-brands .logo-brands{
+    display: flex;
+    gap: 50px;
+}
+
+.section-brands p{
+    color: var(--color-gray1);
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text1);
+    font-weight: 400;
+}   
+
+/* ================ section-features ======================= */
+
+.section-features{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: var(--color-black);
+    padding: 60px;
+}
+
+.section-features .top-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-features .top-sect span{
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    padding: 12px 20px;
+    color: var(--color-green);
+}
+
+.section-features .top-sect h2{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-h2);
+    color: var(--color-white);
+}
+
+.section-features .top-sect p{
+    font-family: var(--font-inter);
+    font-size: var(--font-size-button);
+    color: var(--color-gray1);
+    text-align: center;
+    width: 540px;
+}
+
+.section-features .feature-cards-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-features .feature-cards-content .feature-card{
+    display: flex;
+    border: 1px solid var(--color-gray3);
+    background-color: #ffffff04;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 36px;
+    width: 410px;
+    gap: 36px;
+    text-align: center;
+}
+
+.section-features .feature-cards-content .feature-card .content-card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-features .feature-cards-content .feature-card h3{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-subtitle);
+    color: var(--color-white);
+}
+
+.section-features .feature-cards-content .feature-card p{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text1);
+    color: var(--color-gray1);
+}
+
