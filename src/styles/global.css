@@ -9,13 +9,14 @@
     --color-green: #9DFF3A;
     --color-white: #E5E5E5;
     --color-gray1: #999999;
-    --clor-gray2: #4D4D4D;
+    --color-gray2: #4D4D4D;
     --color-gray3: #2E2E2E;
     --color-gray4: #0F0F0F;
     --color-black: #000000;
 
     --font-alex: 'Alexandria', sans-serif;
-
+    --font-inter: 'Inter', sans-serif;
+    
     --font-size-h1: 64px;
     --font-size-h3: 40px;
     --font-size-h2: 48px;

@@ -6,6 +6,7 @@ header{
     align-items: center;
     background: var(--color-black);
     padding: 24px 193px;
+    filter: drop-shadow(0px -100px 100px var(--color-green));
 }
 
 header nav ul {
@@ -51,4 +52,94 @@ header .right-nav-header .try{
 header .right-nav-header .try:hover{
     background: var(--color-white);
 }
+
+/* ================ MAIN ===================== */
+
+main {
+    padding: 60px 166px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black);
+    gap: 100px;
+}
+
+main .left-main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+main .left-main-content span{
+    display: flex;
+    gap: 8px;
+    width: fit-content;
+    border-radius: 24px;
+    border: 1px solid var(--color-gray2);
+    padding: 10px 12px;
+    font-family: var(--font-alex);
+    font-size: var(--font-size-text2);
+    color: var(--color-green);
+}
+
+main .left-main-content span img{
+    width: 9px;
+}
+
+main .left-main-content h1{
+    width: 521px;
+    font-family: var(--font-alex);
+    font-size: var(--font-size-h1);
+    color: var(--color-white);
+}
+
+main .left-main-content p{
+    width: 470px;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-text1);
+    color: var(--color-gray1);
+}
+
+main .left-main-content .nav-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+main .left-main-content .nav-left .get-button{
+    font-family: var(--font-alex);
+    font-size: var(--font-size-button);
+    color: var(--color-black);
+    text-decoration: none;
+    background: var(--color-green);
+    padding: 14px 24px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+main .left-main-content .nav-left .get-button:hover{
+    background: var(--color-black);
+    color: var(--color-green);
+    border: 1px solid var(--color-green);
+    scale: 1.05;
+}
+
+main .left-main-content .nav-left .watch-button{
+    font-family: var(--font-alex);
+    display: flex;align-items: center;
+    padding: 14px 24px;
+    border: 1.5px solid var(--color-gray2);
+    border-radius: 40px;
+    gap: 6px;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+main .left-main-content .nav-left .watch-button:hover{
+    scale: 1.05;
+}
+
+/*  ================ SECTION-BRANDS ================ */
 
