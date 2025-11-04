@@ -162,4 +162,24 @@ main .left-main-content .nav-left .watch-button:hover{
     font-family: var(--font-alex);
     font-size: var(--font-size-text1);
     font-weight: 400;
+}   
+
+/* ================ section-features ======================= */
+
+.section-features{
+    background-color: var(--color-black);
+    padding: 60px;
+}
+
+.section-features .top-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-features .top-sect span{
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    padding: 12px 20px;
+    color: var(--color-green);
 }
