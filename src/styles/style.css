@@ -295,7 +295,7 @@ main .left-main-content .nav-left .watch-button:hover {
     gap: 20px;
 }
 
-.section-statistics .content-statistics .statistic h2 {
+.section-statistics .content-statistics .statistic h3 {
     color: var(--color-green);
     font-family: var(--font-alex);
     font-size: var(--font-size-h2);
@@ -306,3 +306,5 @@ main .left-main-content .nav-left .watch-button:hover {
     font-family: var(--font-alex);
     font-size: var(--font-size-subtitle);
 }
+
+/* ============== setcion-features2 ===================== */
