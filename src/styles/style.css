@@ -214,7 +214,7 @@ main .left-main-content .nav-left .watch-button:hover {
     width: 540px;
 }
 
-.section-features .feature-cards-content {
+.section-features .faq-content {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -258,7 +258,7 @@ main .left-main-content .nav-left .watch-button:hover {
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    padding: 60px 120px;
+    padding: 60px 0;
     background-color: var(--color-gray4);
 }
 
@@ -280,6 +280,7 @@ main .left-main-content .nav-left .watch-button:hover {
 .section-statistics .top-sect h2 {
     font-family: var(--font-alex);
     font-size: var(--font-size-h2);
+    font-weight: 400;
     color: var(--color-white);
 }
 
@@ -316,14 +317,14 @@ main .left-main-content .nav-left .watch-button:hover {
     font-size: var(--font-size-subtitle);
 }
 
-/* ============== setcion-features2 ===================== */
+/* ============== setcion-features-technology ===================== */
 
 .section-feature-technology{
     display: flex;
     flex-direction: column;
     gap: 60px;
     background: var(--color-black);
-    padding: 60px 156px;
+    padding: 60px 0;
 }
 
 .section-feature-technology .top-sect {
@@ -344,6 +345,7 @@ main .left-main-content .nav-left .watch-button:hover {
 .section-feature-technology .top-sect h2 {
     font-family: var(--font-alex);
     font-size: var(--font-size-h2);
+    font-weight: 400;
     color: var(--color-white);
 }
 
@@ -397,3 +399,58 @@ main .left-main-content .nav-left .watch-button:hover {
 }
 
 /* ================== FAQ ==================== */
+.section-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: var(--color-gray4);
+    padding: 62.5px 0;
+}
+
+.section-faq .top-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-faq .top-sect span {
+    border: 1px solid var(--color-gray3);
+    font-family: var(--font-alex);
+    border-radius: 24px;
+    padding: 12px 20px;
+    color: var(--color-green);
+}
+
+.section-faq .top-sect h2 {
+    font-family: var(--font-alex);
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.section-faq .top-sect p {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-button);
+    color: var(--color-gray1);
+    text-align: center;
+    width: 600px;
+}
+
+.section-faq .faq-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-faq .faq-content  .faq-item{
+    display: flex;
+    color: var(--color-white);
+    font-family: var(--font-alex);
+    justify-content: space-between;
+    width: 732px;
+    padding: 16px 20px;
+    border: 1px solid var(--color-gray3);
+}
+ /* =================== REVOLUTIONARY-SECTION ======================= */
