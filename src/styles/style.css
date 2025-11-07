@@ -319,7 +319,7 @@ main .left-main-content .nav-left .watch-button:hover {
 
 /* ============== setcion-features-technology ===================== */
 
-.section-feature-technology{
+.section-feature-technology {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -364,18 +364,18 @@ main .left-main-content .nav-left .watch-button:hover {
     gap: 70px;
 }
 
-.section-feature-technology .main-features-technology .feature-cards{
+.section-feature-technology .main-features-technology .feature-cards {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.feature-cards .feature-content-cards{
+.feature-cards .feature-content-cards {
     display: flex;
     padding: 20px 30px;
     gap: 24px;
     background-color: var(--color-gray4);
-    border: 1px solid var(--color-gray1); 
+    border: 1px solid var(--color-gray1);
     border-radius: 20px;
 }
 
@@ -384,6 +384,7 @@ main .left-main-content .nav-left .watch-button:hover {
     flex-direction: column;
     gap: 8px;
 }
+
 .feature-cards .feature-content-cards .text-feature-cards h4 {
     font-family: var(--font-alex);
     font-weight: 400;
@@ -399,7 +400,7 @@ main .left-main-content .nav-left .watch-button:hover {
 }
 
 /* ================== FAQ ==================== */
-.section-faq{
+.section-faq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -444,7 +445,7 @@ main .left-main-content .nav-left .watch-button:hover {
     gap: 30px;
 }
 
-.section-faq .faq-content  .faq-item{
+.section-faq .faq-content .faq-item {
     display: flex;
     color: var(--color-white);
     font-family: var(--font-alex);
@@ -453,15 +454,17 @@ main .left-main-content .nav-left .watch-button:hover {
     padding: 16px 20px;
     border: 1px solid var(--color-gray3);
 }
- /* =================== REVOLUTIONARY-SECTION ======================= */
 
-.section-revolutionary{
+/* =================== REVOLUTIONARY-SECTION ======================= */
+
+.section-revolutionary {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: var(--color-black);
+    gap: 20px;
     padding: 60px 0;
-} 
+}
 
 .section-revolutionary .top-sect {
     display: flex;
@@ -483,6 +486,8 @@ main .left-main-content .nav-left .watch-button:hover {
     font-family: var(--font-alex);
     font-size: var(--font-size-h2);
     font-weight: 400;
+    width: 750px;
+    text-align: center;
     color: var(--color-white);
 }
 
@@ -492,4 +497,18 @@ main .left-main-content .nav-left .watch-button:hover {
     color: var(--color-gray1);
     text-align: center;
     width: 600px;
+}
+
+.section-revolutionary a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border: 1.5px solid var(--color-white);
+    color: var(--color-black);
+    background-color: var(--color-green);
+    font-family: var(--font-alex);
+    font-size: var(--font-size-button);
+    font-weight: bold;
+    text-decoration: none;
 }
