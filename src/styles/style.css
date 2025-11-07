@@ -512,3 +512,106 @@ main .left-main-content .nav-left .watch-button:hover {
     font-weight: bold;
     text-decoration: none;
 }
+
+/*  ================== FOOTER ================== */
+
+footer {
+    display: flex;
+    gap: 126px;
+    padding: 60px 78px;
+    background-color: var(--color-black);
+}
+
+.group1-footer {
+    display: flex;
+    gap: 92px;
+    align-items: flex-start;
+}
+
+.content-group1-footer {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.content-group1-footer ul li {
+    list-style: none;
+}
+.content-group1-footer ul li a {
+    text-decoration: none;
+    color: var(--color-gray1);
+    font-family: var(--font-alex);
+}
+
+.content-group1-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-group1-footer h2 {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-inter);
+}
+
+.group2-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.group2-footer h2 {
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-inter);
+    width: 198px;
+
+}
+
+.group2-footer form input::placeholder {
+    color: var(--color-gray1);
+    background-color: var(--color-black);
+    font-size: var(--font-size-text2);
+    font-family: var(--font-family-alexandria);
+}
+
+.group2-footer form input {
+    background-color: transparent;
+    outline: none;
+    color: var(--color-white);
+    padding: 12px 5px;
+}
+
+
+.group2-footer form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-green);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+
+
+.group2-footer form button:hover {
+    background-color: var(--color-white);
+    cursor: pointer;
+    scale: 1.2;
+}
+
+
+
+.group2-footer form {
+    display: flex;
+    align-items: center;
+    gap: 212px;
+    border-bottom: 1px solid var(--color-gray1);
+    padding-bottom: 16px;
+
+}
