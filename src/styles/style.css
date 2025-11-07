@@ -231,6 +231,10 @@ main .left-main-content .nav-left .watch-button:hover {
     width: 410px;
     gap: 36px;
     text-align: center;
+    transition: 0.3s;
+}
+.section-features .feature-cards-content .feature-card:hover {
+    transform: translateY(-10px);
 }
 
 .section-features .feature-cards-content .feature-card .content-card {
@@ -377,6 +381,12 @@ main .left-main-content .nav-left .watch-button:hover {
     background-color: var(--color-gray4);
     border: 1px solid var(--color-gray1);
     border-radius: 20px;
+    transition: 0.3s;
+}
+
+.section-feature-technology .main-features-technology .feature-content-cards:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .feature-cards .feature-content-cards .text-feature-cards {
@@ -453,6 +463,11 @@ main .left-main-content .nav-left .watch-button:hover {
     width: 732px;
     padding: 16px 20px;
     border: 1px solid var(--color-gray3);
+    transition: 0.3s;
+}
+.section-faq .faq-content .faq-item:hover {
+    cursor: pointer;
+    background-color: var(--color-gray3);
 }
 
 /* =================== REVOLUTIONARY-SECTION ======================= */
@@ -511,8 +526,15 @@ main .left-main-content .nav-left .watch-button:hover {
     font-size: var(--font-size-button);
     font-weight: bold;
     text-decoration: none;
+    transition: 0.3s;
 }
 
+.section-revolutionary a:hover {
+    background-color: var(--color-gray4);
+    color: var(--color-white);
+    border: 1.5px solid var(--color-green);
+    scale: 1.05;
+}
 /*  ================== FOOTER ================== */
 
 footer {
